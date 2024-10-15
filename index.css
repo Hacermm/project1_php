@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+
+header{
+    background-color: lightskyblue;
+    color: #fff;
+    padding: 30px ;
+    text-align: center;
+}
+
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    margin: 0 30px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+    font-size: 23px;
+}
+
+nav ul li a:hover{
+    color: crimson;
+}
+
+
